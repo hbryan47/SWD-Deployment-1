@@ -22,7 +22,7 @@ jobs:
       run: npm run build
     
     - name: Deploy production to netlify
-      uses: South-Paw/action-netlify-deploy@1.20
+      uses: South-Paw/action-netlify-deploy@1.2.0
       with:
         github-token: ${{ secrets.GITHUB-TOKEN }}
         netlify-auth-token: ${{ secrets.NETLIFY_AUTH_TOKEN }}
